@@ -7,7 +7,7 @@ const MusicSelector = (props) => {
   const songs = props.songs.map((song, index) => {
 
     return (
-      <MusicDetail key={index} song={song}/>
+      <MusicDetail song={song} key={index}/>
     )
   })
 
