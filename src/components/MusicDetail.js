@@ -6,9 +6,10 @@ const MusicDetail = (props) => {
 
   return (
     <div>
+    <h1>Top 20 Songs</h1>
     <h3>Track Name: {props.song['im:name'].label} </h3>
     <p>Artist: {props.song['im:artist'].label}</p>
-    <p>{props.song["im:image"][2].label}</p>
+    <img src={props.song["im:image"][2].label}/>
 
     </div>
   )
